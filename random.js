@@ -6,4 +6,4 @@ http.createServer(function (request, response) {
   response.end(parseInt(100*(Math.random())) + "\n");
 }).listen(port);
 
-console.log("Server (Integers) Running on port " + port);
+console.log("Server (Int) Running on port " + port);
