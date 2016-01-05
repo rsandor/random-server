@@ -1,7 +1,6 @@
 var http = require('http'),
 	port = 8000;
 
-
 var words = ['foo', 'bar', 'baz', 'bam'];
 
 http.createServer(function (request, response) {
